@@ -1,6 +1,6 @@
 
 'use strict'
-import validator from 'validator' 
+const validator = require('validator'); 
 
 /*  funcion que valida los datos de entrada de una petición a una api  */
 
