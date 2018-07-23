@@ -1,0 +1,30 @@
+{
+  "name": "airzone_validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "clear_jest": "jest --clearCache"
+  },
+  "author": "Diego Andrades <andradesdiego@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-jest": "^23.4.0",
+    "jest": "^23.4.1",
+    "validator": "10.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
